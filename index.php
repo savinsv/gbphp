@@ -1,7 +1,7 @@
 <?php
-include_once "lib/classes/Product.php";
+include_once "lib/classes/Tovar.php";
 
-$test_product = new Product(0,"Мышка",250,20,"так себе мышь");
+$test_product = new Tovar(0,"Мышка",250,"так себе мышь",1,time());
 echo $test_product->getinfo();
 //phpinfo();
 
